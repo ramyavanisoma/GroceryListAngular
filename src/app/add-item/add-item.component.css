@@ -4,7 +4,29 @@ form{
 }
 #toolBar{
     height: 100px;
+    padding-top:30px ;
+    padding-bottom:30px;
 }
 #formField{
-width: 350px;
+    width: 450px;
+    padding:20px;
+    height:50px;
+
 }
+
+.addButton{
+    height: 57px;
+    text-align: center;
+    margin-left: -20px;
+    border-radius: 0 2px 2px 0;
+    padding-left: 25px;
+
+}
+.icon{
+    font-weight:bold;
+    margin: auto;
+
+}
+::ng-deep .mat-form-field-outline-end {
+    border-radius: 0 28px 28px 0 !important;
+  }

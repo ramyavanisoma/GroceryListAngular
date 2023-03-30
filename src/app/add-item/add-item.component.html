@@ -1,11 +1,12 @@
 <mat-toolbar id="toolBar">
     <form>
         <mat-form-field id="formField" appearance="outline">
-        
             <mat-label>Enter Item Name..</mat-label>
-            <input matInput class="inputField" aria-label="Item name" [formControl]="addToList" (click)="addItem()"/>
-            <button mat-raised-button>Add To List</button>
+            <div class="inputDiv">
+                <input matInput class="inputField" aria-label="Item name" [formControl]="addToList" />
+            </div>
         </mat-form-field>
+        <button mat-raised-button (click)="addItem()" class="addButton"><mat-icon class="icon">add</mat-icon></button>
     </form>
 </mat-toolbar>
 

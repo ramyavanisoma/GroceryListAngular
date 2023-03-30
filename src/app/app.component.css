@@ -1,0 +1,20 @@
+.display{
+   margin:auto;
+   margin-top: 50px;
+    width:70%;
+    height:80%;
+    -webkit-box-shadow: 0 0 5px 2px #645d5d;
+    -moz-box-shadow: 0 0 5px 2px #645d5d;
+    box-shadow: 0 0 5px 2px #645d5d;
+    background-color: rgb(3, 39, 39);
+}
+mat-icon{
+    float:right;
+}
+#delete{
+    float:right;
+}
+#list-item{
+    margin:auto;
+    width:80%;
+}

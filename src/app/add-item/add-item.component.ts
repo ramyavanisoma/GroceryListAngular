@@ -14,5 +14,6 @@ addToList=new FormControl('');
     if(this.addToList.value!==null){
       this.addEvent.emit(this.addToList.value);
     }
+    this.addToList.reset();
   }
 }

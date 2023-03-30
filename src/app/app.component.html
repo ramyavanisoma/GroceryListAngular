@@ -1,6 +1,13 @@
-<app-add-item ></app-add-item>
-<!-- <ul class="list-group">
-  <li *ngFor="let task of tasks" class="list-group-item">
-      <span> {{ task.name }} </span>
-  </li>
-</ul> -->
+<app-add-item (addEvent)="addToList($event)"></app-add-item>
+<div class="display">
+  <mat-list >
+    <mat-list-item *ngFor="let item of items" id="list-item">
+        <span class="item"> {{ item.name }} </span>
+        <button id="delete" mat-icon-button (click)="remove(item.name)">
+          <mat-icon matListItemIcon>delete</mat-icon>
+        </button>
+    </mat-list-item>
+  </mat-list>
+</div>
+
+   
