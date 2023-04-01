@@ -1,20 +1,27 @@
 .display{
    margin:auto;
    margin-top: 50px;
-    width:70%;
+    width:60%;
     height:80%;
-    -webkit-box-shadow: 0 0 5px 2px #645d5d;
-    -moz-box-shadow: 0 0 5px 2px #645d5d;
-    box-shadow: 0 0 5px 2px #645d5d;
-    background-color: rgb(3, 39, 39);
 }
-mat-icon{
-    float:right;
+.item{
+   font-size: 20px;
+    display: inline-block;
+    margin-top:10px;
+    font-weight: bold;
 }
 #delete{
     float:right;
 }
+#check{
+    float:right;   
+}
 #list-item{
+    color:black !important;
     margin:auto;
-    width:80%;
+    margin-bottom: 6px;
+    width:70%;
+    -webkit-box-shadow: 0 0 5px 2px rgb(203, 202, 202);
+    -moz-box-shadow: 0 0 5px 2px rgb(203, 202, 202);
+    box-shadow: 0 0 5px 2px rgb(203, 202, 202);
 }
