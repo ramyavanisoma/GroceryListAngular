@@ -1,10 +1,11 @@
 <app-add-item (addEvent)="addToList($event)"></app-add-item>
 <div class="display">
+ 
   <mat-list >
     <mat-list-item *ngFor="let item of items; index as i" id="list-item">
-        <span class="item">{{i+1}}.  {{ item.name }} </span>
+        <span class="item" [ngClass]="{'strike': item.strike}">{{i+1}}.  {{ item.name }} </span>
 
-        <button id="check" mat-icon-button >
+        <button id="check" mat-icon-button (click)="onstrike(item.name)">
           <mat-icon>check_circle</mat-icon>
         </button>
         

@@ -12,10 +12,13 @@
 }
 #delete{
     float:right;
+    color:#d35a5a;
 }
 #check{
-    float:right;   
+    float:right; 
+    color:#27a778;  
 }
+
 #list-item{
     color:black !important;
     margin:auto;
@@ -24,4 +27,8 @@
     -webkit-box-shadow: 0 0 5px 2px rgb(203, 202, 202);
     -moz-box-shadow: 0 0 5px 2px rgb(203, 202, 202);
     box-shadow: 0 0 5px 2px rgb(203, 202, 202);
+}
+
+.strike{
+    text-decoration: line-through;
 }
